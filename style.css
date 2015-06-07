@@ -1,0 +1,18 @@
+body{
+    font-family: "HelveticaNeue-UltraLight";
+}
+
+a{
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+#MenuBar{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #FFCC00;
+    opacity: 0.95;
+}
+
