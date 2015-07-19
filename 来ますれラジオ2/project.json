@@ -1,0 +1,171 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 4,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": 5,
+			"baseLayerMD5": "f6b9276d602914f9cc5a6103b536e5be.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Sprite1",
+			"scripts": [[182,
+					113,
+					[["whenGreenFlag"], ["playSound:", "録音4"], ["doPlaySoundAndWait", "録音2"], ["playSound:", "録音3"]]],
+				[19, 63, [["playSound:", "録音1"]]],
+				[81,
+					6,
+					[["whenGreenFlag"], ["doPlaySoundAndWait", "録音1"], ["doForever", [["doPlaySoundAndWait", "dance around"]]]]],
+				[112,
+					246,
+					[["whenGreenFlag"],
+						["say:duration:elapsed:from:", "始まり始まり", 10],
+						["say:duration:elapsed:from:", "今回もニュースです", 10],
+						["say:duration:elapsed:from:", "ちょっとしたフリートークもあります", 10],
+						["say:duration:elapsed:from:", "気楽ですね−[自分が」", 10],
+						["say:duration:elapsed:from:", "お楽しみください！", 10]]]],
+			"sounds": [{
+					"soundName": "録音1",
+					"soundID": 0,
+					"md5": "7676a1d2ba724d39a104159570297352.wav",
+					"sampleCount": 3308301,
+					"rate": 22050,
+					"format": "adpcm"
+				},
+				{
+					"soundName": "録音2",
+					"soundID": 1,
+					"md5": "fee938081ff26bd4aec033f5d33c685a.wav",
+					"sampleCount": 14710017,
+					"rate": 22050,
+					"format": "adpcm"
+				},
+				{
+					"soundName": "録音3",
+					"soundID": 2,
+					"md5": "e1dde75baa2c10b0a9755d6b527a6a2e.wav",
+					"sampleCount": 4843521,
+					"rate": 22050,
+					"format": "adpcm"
+				},
+				{
+					"soundName": "録音5",
+					"soundID": 3,
+					"md5": "18778533d43a06a1c8d3414d2102139d.wav",
+					"sampleCount": 1208705,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "09dc888b0b7df19f70d81588ae73420e.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				},
+				{
+					"costumeName": "costume2",
+					"baseLayerID": 2,
+					"baseLayerMD5": "3696356a03a8d938318876a593572843.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 0,
+			"scratchY": 0,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "9",
+			"sounds": [{
+					"soundName": "ポップ",
+					"soundID": 4,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "9",
+					"baseLayerID": 3,
+					"baseLayerMD5": "aa7f26538bc86a57dc23390bdf5d6a8d.png",
+					"bitmapResolution": 1,
+					"rotationCenterX": 197,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 247,
+			"scratchY": -87,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Sprite2",
+			"sounds": [{
+					"soundName": "ポップ",
+					"soundID": 4,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "コスチューム1",
+					"baseLayerID": 4,
+					"baseLayerMD5": "c7f0ed3a4db159f7b172565c8b946808.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 68,
+					"rotationCenterY": 270
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -163,
+			"scratchY": 18,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 3,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"hasCloudData": false,
+		"swfVersion": "v438.1",
+		"flashVersion": "MAC 18,0,0,209",
+		"userAgent": "Mozilla\/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit\/420+ (KHTML, like Gecko) Version\/3.0 Mobile\/1A543a Safari\/419.3",
+		"scriptCount": 3,
+		"projectID": "70786946",
+		"videoOn": false,
+		"spriteCount": 3
+	}
+}
